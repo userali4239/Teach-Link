@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "334672116564",
+    "firebase_url": "https://crudapp-dba6c-default-rtdb.firebaseio.com",
+    "project_id": "crudapp-dba6c",
+    "storage_bucket": "crudapp-dba6c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334672116564:android:8b88cee3ebc5e0d0de66c1",
+        "android_client_info": {
+          "package_name": "com.example.crudapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuFPQHLL8_RDBZeboQ60MZ6ZQ0ASJYADo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

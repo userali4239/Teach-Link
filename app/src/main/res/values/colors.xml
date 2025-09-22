@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#379BC9</color>
+    <color name="colorPrimaryDark">#00aff0</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="skyBlue">#00aff0</color>
+    <color name="red">#e12024</color>
+    <color name="green">#04867a</color>
+    <color name="orange">#ed8d00</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="backgroundoppacity">#AB363535</color>
+    <color name="startcolorgradient">#443c20</color>
+    <color name="endcolorgradient">#e8a564</color>
+
+</resources>

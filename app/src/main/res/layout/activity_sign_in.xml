@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="139dp"
+            android:layout_height="188dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teach Link"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:fontFamily="cursive"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_corner"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/white"
+            android:hint="Password"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_corner"
+            />
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password ?"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:background="@drawable/background_corner"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="  Or With   "
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/fbbackground"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Google"
+                android:layout_weight="1"
+                android:background="@drawable/googlebackground"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Already have Account ?"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp" />
+            <TextView
+                android:id="@+id/createText"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:text="Register"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

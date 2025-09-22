@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="30dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:id="@+id/nametext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/coursetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/numbertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/emailtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/editbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/edit"
+                    app:tint="#03A9F4" />
+
+                <ImageView
+                    android:id="@+id/deletebtn"
+                    android:layout_width="100dp"
+                    android:layout_height="23dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/delete"
+                    app:tint="#03A9F4" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

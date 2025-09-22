@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="139dp"
+            android:layout_height="188dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teach Link"
+            android:textColor="#FFFFFF"
+            android:textStyle="normal"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Log In"
+            android:backgroundTint="@color/skyBlue"
+            />
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="REGISTER"
+            android:backgroundTint="@color/skyBlue"
+            />
+        <TextView
+            android:id="@+id/btnSkip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Content Pannel"
+        android:background="#03A9F4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/uimgurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Image URL"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/background_corner" />
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Name"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/background_corner" />
+    <EditText
+        android:id="@+id/ucourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Course"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/background_corner" />
+        <EditText
+            android:id="@+id/unumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Number"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/background_corner" />
+    <EditText
+        android:id="@+id/uemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Email"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/background_corner" />
+
+    <Button
+        android:id="@+id/usubmit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+    </LinearLayout>
+
+</LinearLayout>
