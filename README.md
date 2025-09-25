@@ -57,7 +57,7 @@ The app provides a secure and user-friendly platform where users can register, l
 
 ## 🔧 Installation & Setup
 1. **Clone the repository**
-   git clone https://github.com/your-username/teachlink.git
+   git clone https://github.com/userali4239/Teach-Link
 
 2. **Open in Android Studio**
 
