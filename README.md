@@ -86,6 +86,9 @@ Implement search and filtering features
 Expand dashboard for analytics
 
 **📩 Contact**
+
 👤 Ali Raza Warriach
+
 📧 userali4239@gmail.com
+
 🌐 LinkedIn : https://www.linkedin.com/in/userali4239
